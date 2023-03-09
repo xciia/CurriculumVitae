@@ -4,6 +4,7 @@ document.getElementById("boton").addEventListener("click", function() {
 });
 
 document.getElementById("boton_noche").addEventListener("click", function() {
+
     document.body.style.backgroundColor = "#000000";
     document.body.style.color = "#ffffff"
 });

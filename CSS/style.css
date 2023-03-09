@@ -11,18 +11,21 @@
     margin-right: auto;
 }
 
-.mail {
+#mail {
     text-align: center;
+    font-family: 'Roboto', sans-serif;
 }
 
-h1, h2, h3{
+h1, h4{
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     text-align: center;
     }
 
 h2 {
-    font-weight: bolder; 
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 7px 6px 7px #4e0a6d;
 }
 
 #boton, #boton_noche, #boton_dia {
