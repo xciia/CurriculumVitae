@@ -1,13 +1,21 @@
 
-
+html {
+    scroll-behavior: smooth;
+}
 
  img { 
     width: 256px;
     height: 256px;
     opacity: 0.9;
-  }
+    transform: rotate(-4deg);
+    cursor: cell;
+}
 
-.center {
+p {
+    text-indent: 5%;
+}
+
+.center, #boton {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -22,7 +30,7 @@ h1, h4{
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     text-align: center;
-    }
+}
 
 h2 {
     text-align: center;
@@ -30,9 +38,23 @@ h2 {
     text-shadow: 7px 6px 7px #4e0a6d;
 }
 
-#boton, #boton_noche, #boton_dia {
-    color: rgb(255, 255, 255); font-size: 25px; line-height: 25px; padding: 5px; border-radius: 35px; font-family: Georgia, serif; font-weight: normal; text-decoration: none; font-style: normal; font-variant: normal; text-transform: none; background-image: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 50%, rgb(20, 78, 117) 100%); box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px; border: 2px solid rgb(28, 110, 164);}
-    .myButton:hover {
-    background: #1C6EA4; }
-    .myButton:active {
-    background: #144E75; }
+.boton {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    line-height: 25px;
+    padding: 5px;
+    border-radius: 35px;
+    font-family: Georgia, serif;
+    background-image: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 50%, rgb(20, 78, 117) 100%);
+    box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px;
+    border: 2px solid rgb(28, 110, 164);
+    transition-duration: 0.5s;
+}
+
+.boton:hover {
+    background: #1C6EA4;
+}
+
+.boton:active {
+    background: #144E75;
+}
