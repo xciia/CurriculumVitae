@@ -1,6 +1,6 @@
 
 document.getElementById("boton").addEventListener("click", function() {
-    document.getElementById("mail").innerHTML = "pauline.hernandez@example.com";
+    document.getElementById("mail").innerHTML = '<a href="mailto:pauline.hernandez@example.com" target="_top">pauline.hernandez@example.com</a>';
 });
 
 document.getElementById("boton_noche").addEventListener("click", function() {
